@@ -6,9 +6,9 @@
   <title>Just Checking!</title>
 
   <!-- iMessage/Social Preview -->
-  <meta property="og:title" content="🥳 🥳" />
+  <meta property="og:title" content="🎉 🎉" />
   <meta property="og:description" content="" />
-  <meta property="og:image" content="https://emojiapi.dev/api/v1/1f973/512.png" />
+  <meta property="og:image" content="https://em-content.zobj.net/source/apple/354/party-popper_1f389.png" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://your-final-site-url.com" />
 
@@ -34,21 +34,24 @@
       gap: 20px;
       text-align: center;
       padding: 0 20px;
+      flex-wrap: nowrap;
     }
 
-    .emoji {
-      font-size: 3rem;
+    .emoji-img {
+      width: 70px;
+      height: 70px;
     }
 
     .message {
-      font-size: 2.5rem;
+      font-size: 2.7rem;
       font-weight: 600;
       line-height: 1.2;
     }
 
     @media (min-width: 768px) {
-      .emoji {
-        font-size: 4rem;
+      .emoji-img {
+        width: 90px;
+        height: 90px;
       }
 
       .message {
@@ -59,9 +62,9 @@
 </head>
 <body>
   <div class="container">
-    <div class="emoji">🥳</div>
+    <img class="emoji-img" src="https://em-content.zobj.net/source/apple/354/party-popper_1f389.png" alt="Party Popper Emoji" />
     <div class="message">Just checking!</div>
-    <div class="emoji">🥳</div>
+    <img class="emoji-img" src="https://em-content.zobj.net/source/apple/354/party-popper_1f389.png" alt="Party Popper Emoji" />
   </div>
 </body>
 </html>
